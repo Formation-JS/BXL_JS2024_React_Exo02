@@ -4,10 +4,17 @@ import data from '../../data/products.json';
 
 export default function ProductList() {
 
+    // CSS in JS
+    const style = {
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '1ch'
+    };
+
     return (
         <>
             <h2>Liste des produits</h2>
-            <div>
+            <div style={style}>
             {data.map(product => (
                 <ProductCard
                 {...product}
