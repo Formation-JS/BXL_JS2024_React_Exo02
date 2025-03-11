@@ -10,7 +10,8 @@
     border-bottom: solid 0.2ch navy;
 
     img {
-       padding: 0.5ch;
+        padding: 0.5ch;
+        display: inline-block;
     }
 
     span {
@@ -20,4 +21,31 @@
         font-weight: bold;
     }
 
+    img {
+        animation: logoanim1 2s linear infinite;
+        &:hover {
+            animation: logoanim2 0.5s linear infinite;
+        }
+    }
+}
+
+@keyframes logoanim1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes logoanim2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
