@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Smartphone X200",
+    "ref": "0123456789123",
+    "description": "Un smartphone performant avec écran AMOLED.",
+    "category": "Electronics",
+    "price": 1299.95,
+    "onSale": false
+  },
+  {
+    "id": 2,
+    "name": "Chaise ergonomique",
+    "ref": "9876543210987",
+    "description": "Chaise confortable avec support lombaire.",
+    "category": "Furniture",
+    "price": 149.95,
+    "onSale": true
+  },
+  {
+    "id": 3,
+    "name": "Cafetière automatique",
+    "ref": "1928374650912",
+    "description": null,
+    "category": "Kitchen",
+    "price": 89.99,
+    "onSale": false
+  },
+  {
+    "id": 4,
+    "name": "Casque sans fil",
+    "ref": "6789012345678",
+    "description": "Casque Bluetooth avec réduction de bruit.",
+    "category": "Audio",
+    "price": 199.99,
+    "onSale": true
+  },
+  {
+    "id": 5,
+    "name": "T-shirt en coton",
+    "ref": "3456789012345",
+    "description": null,
+    "category": "Clothing",
+    "price": 9.99,
+    "onSale": true
+  },
+  {
+    "id": 6,
+    "name": "Table de jardin",
+    "ref": "4567890123456",
+    "description": null,
+    "category": "Outdoor",
+    "price": 100,
+    "onSale": false
+  }
+]

@@ -1,0 +1,20 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+
+    border: hotpink solid 0.1ch;
+    border-radius: 1em;
+    box-shadow: hotpink 0.5ch 0.5ch 0.5ch;
+
+    p {
+        margin: 0;
+    }
+}
+
+.price {
+    font-weight: bold;
+}
+.promo {
+    color: hotpink;
+}
