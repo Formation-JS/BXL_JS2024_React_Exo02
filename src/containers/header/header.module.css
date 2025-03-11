@@ -1,0 +1,23 @@
+.header {
+    height: 4rem;
+    background-color: hotpink;
+    min-width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+    font-family: 'Jokerman', 'Papyrus', 'Comic Sans MS';
+
+    border-bottom: solid 0.2ch navy;
+
+    img {
+       padding: 0.5ch;
+    }
+
+    span {
+        font-size: 1.6rem;
+        align-self: center;
+        color: gold;
+        font-weight: bold;
+    }
+
+}
